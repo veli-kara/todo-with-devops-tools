@@ -5,9 +5,9 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - DB_URL=mongodb+srv://velikara:JrieOfUlA3M0T7x8@cluster0.b26cd0w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-      - DB_USER=velikara
-      - DB_PASSWORD=JrieOfUlA3M0T7x8
+      - DB_URL=
+      - DB_USER=
+      - DB_PASSWORD=
   todo-ui:
     build: ./todo-ui
     ports:
