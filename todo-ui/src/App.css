@@ -1,0 +1,17 @@
+h1 {
+    margin: 0;
+    padding: 5rem;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: inherit;
+}
+
+li{
+  font-size: 2rem;
+
+}
+
+.form-check-input:checked {
+  background-color: #198754;
+  border-color: #198754;
+}
